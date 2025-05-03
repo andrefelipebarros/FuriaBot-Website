@@ -1,0 +1,26 @@
+[build]
+  command = "pnpm build"
+  publish = ".next"
+
+[build.environment]
+  # Use uma LTS suportada pelo Netlify
+  NODE_VERSION              = "18.18.0"
+  NEXT_PLUGIN_FORCE_PUBLISH = "true"
+  # (opcional) para fixar versão do pnpm:
+  # PNPM_VERSION = "8"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# redirect root → pt-BR
+[[redirects]]
+  from   = "/"
+  to     = "/pt-BR"
+  status = 302
+  force  = true
+
+# catch-all Next.js
+[[redirects]]
+  from   = "/\\*"
+  to     = "/.netlify/functions/next"
+  status = 200

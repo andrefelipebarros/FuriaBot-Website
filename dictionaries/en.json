@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "FURIA CS:GO Bots | Telegram & Discord",
+    "description": "Stay connected with FURIA Esports' CS:GO program through our Telegram and Discord bots. Get real-time updates, match notifications, and player stats.",
+    "keywords": "FURIA, CS:GO, esports, Telegram bot, Discord bot, Counter-Strike, gaming"
+  },
+  "navigation": {
+    "features": "Features",
+    "platforms": "Platforms",
+    "about": "About"
+  },
+  "hero": {
+    "title": "FURIA CS:GO Updates in Real-Time",
+    "description": "Stay connected with FURIA's CS:GO team through our dedicated bots on Telegram and Discord. Get match alerts, player stats, and more.",
+    "telegramButton": "Join on Telegram",
+    "discordButton": "Add to Discord",
+    "testimonial": {
+      "quote": "The only bot you need to follow FURIA's CS:GO matches. Never miss a game again!",
+      "author": "— FURIA Fan"
+    }
+  },
+  "features": {
+    "title": "Bot Features",
+    "matchAlerts": {
+      "title": "Match Alerts",
+      "description": "Get notified before FURIA's matches start so you never miss a game. Includes tournament information and opponent details."
+    },
+    "playerStats": {
+      "title": "Player Statistics",
+      "description": "Access detailed performance data for all FURIA CS:GO players, including both the men's lineup and inclusive team."
+    },
+    "liveResults": {
+      "title": "Live Results",
+      "description": "Follow matches in real-time with live score updates, round-by-round breakdowns, and key highlight notifications."
+    }
+  },
+  "platforms": {
+    "title": "Available Platforms",
+    "telegram": {
+      "title": "Telegram Bot",
+      "description": "Our Telegram bot delivers instant notifications and comprehensive stats for FURIA's CS:GO teams directly to your phone.",
+      "features": ["Instant match notifications", "Player and team statistics", "Tournament schedules and results"],
+      "button": "Join on Telegram"
+    },
+    "discord": {
+      "title": "Discord Bot",
+      "description": "Add our Discord bot to your server and keep your community informed about FURIA's CS:GO teams with rich, interactive features.",
+      "features": [
+        "Server-wide match notifications",
+        "Interactive commands and stats",
+        "Rich embeds with match details"
+      ],
+      "button": "Add to Discord"
+    }
+  },
+  "about": {
+    "title": "About the Bot",
+    "paragraphs": [
+      "The FURIA CS:GO Bot was created by fans, for fans. Our goal is to provide the FURIA community with the most reliable and up-to-date information about their favorite CS:GO team.",
+      "We use official data sources including PandaScore, Liquipedia, and BO3, along with FURIA's official channels to ensure all information is accurate and timely.",
+      "Whether you're following the men's lineup or the inclusive team, our bot keeps you connected to all FURIA CS:GO action."
+    ],
+    "button": "Learn More"
+  },
+  "cta": {
+    "title": "Join the FURIA CS:GO Community",
+    "description": "Stay connected with FURIA's CS:GO teams. Never miss a match, update, or important announcement.",
+    "telegramButton": "Join on Telegram",
+    "discordButton": "Add to Discord"
+  },
+  "footer": {
+    "disclaimer": "Not officially affiliated with FURIA Esports. Created by fans, for fans."
+  }
+}
