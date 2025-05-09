@@ -1,13 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Veja mais em https://help.github.com/articles/ignoring-files/
 
-# dependencies
+# dependências
 /node_modules
 
-# next.js
+# Next.js
 /.next/
 /out/
 
-# production
+# produção
 /build
 
 # debug
@@ -16,12 +16,41 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
+# arquivos de ambiente
 .env*
+!.env.example
 
 # vercel
 .vercel
 
+# netlify
+.netlify/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor / sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+
+# test coverage
+coverage/
+
+# arquivos gerados por Tailwind (em alguns setups)
+/tailwind.config.js
+/tailwind.config.ts
+
+# arquivos de lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# outros possíveis arquivos temporários
+*.log
