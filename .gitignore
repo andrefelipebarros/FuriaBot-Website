@@ -1,56 +1,92 @@
-# Veja mais em https://help.github.com/articles/ignoring-files/
+# ==============================
+# Dependências
+# ==============================
+/node_modules/
 
-# dependências
-/node_modules
-
-# Next.js
+# ==============================
+# Next.js: diretórios de build e cache
+# ==============================
 /.next/
+/.next/cache/
 /out/
+/build/
 
-# produção
-/build
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# arquivos de ambiente
-.env*
+# ==============================
+# Variáveis de ambiente
+# ==============================
+# Ignora especificamente todos os .env locais gerados (não commitá-los no Git)
+/.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Mantém apenas o exemplo de .env no repositório
 !.env.example
 
-# vercel
-.vercel
+# ==============================
+# Logs e Debug
+# ==============================
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
 
-# netlify
-.netlify/
+# ==============================
+# Arquivos de sistema / OS
+# ==============================
+.DS_Store
+Thumbs.db
 
-# typescript
+# ==============================
+# IDEs / Editores
+# ==============================
+/.vscode/
+/.idea/
+
+# ==============================
+# TypeScript
+# ==============================
 *.tsbuildinfo
 next-env.d.ts
 
-# editor / sistema
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
+# ==============================
+# Testes / Cobertura
+# ==============================
+/coverage/
 
-# IDEs
-.vscode/
-.idea/
-
-# test coverage
-coverage/
-
-# arquivos gerados por Tailwind (em alguns setups)
+# ==============================
+# Tailwind (arquivos gerados em alguns setups)
+# ==============================
 /tailwind.config.js
 /tailwind.config.ts
 
-# arquivos de lock
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# ==============================
+# Caches e outros “artefatos” temporários
+# ==============================
+/.cache/
+/.eslintcache
 
-# outros possíveis arquivos temporários
-*.log
+# ==============================
+# Turborepo (caso use monorepo com Turbo)
+/.turbo/
+
+# ==============================
+# Vercel / Netlify
+# ==============================
+/.vercel/
+/.netlify/
+
+# ==============================
+# Arquivos de travamento (“lockfiles”)
+# ==============================
+# Em geral é bom commitar seus lockfiles (package-lock.json, yarn.lock ou pnpm-lock.yaml)
+# para garantir que todo mundo instale exatamente as mesmas dependências.
+# Se você preferir não commitar (ex.: bibliotecas/lib de exemplo), descomente:
+# /package-lock.json
+# /yarn.lock
+# /pnpm-lock.yaml
+
+# ==============================
+# Swap / Temp de editores
+# ==============================
+*.swp
+*.swo
